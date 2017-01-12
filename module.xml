@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<modules>
+	<id>user</id>
+	<module>
+		<module-name>user-registration</module-name>
+		<display-name>Регистрация пользователя</display-name>
+		<module-class>kz.tem.portal.user.registration.RegistrationPanel</module-class>
+	</module>
+	<module>
+		<module-name>user-login</module-name>
+		<display-name>Аутентификация пользователя</display-name>
+		<module-class>kz.tem.portal.user.login.LoginPanel</module-class>
+	</module>  
+	<module>
+		<module-name>user-message</module-name>
+		<display-name>Сообщение для пользователя</display-name>
+		<module-class>kz.tem.portal.user.messages.Message</module-class>
+	</module>  
+	<module>
+		<module-name>user-rememberpassword</module-name>
+		<display-name>Форма запроса на восстановление пароля</display-name>
+		<module-class>kz.tem.portal.user.password.RememberPassword</module-class>
+	</module>  
+	<module>
+		<module-name>user-newpassword</module-name>
+		<display-name>Форма восстановление пароля</display-name>
+		<module-class>kz.tem.portal.user.password.NewPassword</module-class>
+	</module>
+	
+	
+</modules>
